@@ -11,3 +11,12 @@ node_js:
   - "0.11.0"
   - "0.10"
   - "0.8"
+before_install:
+ - sudo nvm install 0.11.7
+ - sudo nvm install 0.11.6
+ - sudo nvm install 0.11.5
+ - sudo nvm install 0.11.4
+ - sudo nvm install 0.11.3
+ - sudo nvm install 0.11.2
+ - sudo nvm install 0.11.1
+ - sudo nvm install 0.11.0
