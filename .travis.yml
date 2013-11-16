@@ -20,3 +20,4 @@ before_install:
  - nvm install 0.11.2
  - nvm install 0.11.1
  - nvm install 0.11.0
+ - nvm use $TRAVIS_NODE_VERSION
